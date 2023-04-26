@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App{
+  display: flex;
+  height: 100vh;
+  padding: 0 10%;
+}
+.Block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background-color: #eff5d1;
+  padding: 140px 300px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+}
+.H{
+  top: 33px;
+  margin: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 56px;
+
+  text-align: center;
+
+  color: #013A51;
+}
+.Description{
+  top: 102px;
+  margin: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  text-align: center;
+
+  color: #013A51;
+}
+.Pre-H{
+  margin: 0;
+  color: #00CA90;
+}
+.Btn-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.Btn-primary{
+  padding: 20px 50px;
+  border-radius: 100px;
+  border: none;
+  background-color: #00CA90;
+  color: #fff;
+}
+.Btn-secondary{
+  padding: 20px 50px;
+  border-radius: 100px;
+  border: none;
+  background-color: #192F44;
+  color: #fff;
+}
